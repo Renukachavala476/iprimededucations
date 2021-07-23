@@ -1,3 +1,9 @@
 names=["renuka","dharani","bharathi","sridhar"]
+del names[0]
+names.remove("dharani")
+names.pop(1)
 print(names)
-print(names[0:2])
+names.clear()
+print(names)
+
+
