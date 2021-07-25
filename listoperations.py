@@ -1,4 +1,4 @@
-names=["dharani","bharathi","renka","sridhar",101,202,303,401]
+names=["dharani","bharathi","renka","sridhar"]
 #print(names)
 #print(names[1:3])
 # print(names.pop(2))
@@ -15,4 +15,8 @@ names=["dharani","bharathi","renka","sridhar",101,202,303,401]
 #     print("not exists")    
 #print(tuple(names))
 #print(list(names))
-print(clear(names))
+#print(clear(names))
+# names.sort()
+# print(names)
+names.clear()
+print(names)
